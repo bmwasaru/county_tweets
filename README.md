@@ -11,6 +11,6 @@ Rename sample_keys.py to keys.py and add the required API Keys from twitter
 
 To save the data in a text file for analysis
 
-.. code-block:: bash
+.. code-block:: python
 
 	$ python kenya.py > kenya_data.txt
