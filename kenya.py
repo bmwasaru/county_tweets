@@ -8,8 +8,7 @@ from keys import consumer_key
 from keys import consumer_secret
 
 
-class StdOutListener(StreamListener):
-    
+class StdOutListener(StreamListener):    
     # on success
     def on_data(self, data):
         print data
